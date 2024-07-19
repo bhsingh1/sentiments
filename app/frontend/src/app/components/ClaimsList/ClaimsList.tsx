@@ -66,10 +66,10 @@ const ClaimsList: React.FunctionComponent = () => {
 
     const columnNames = {
         id: 'ID',
-        claim_number: 'Claim Number',
+        claim_number: 'S.No',
         category: 'Category',
         client_name: 'Client Name',
-        policy_number: 'Policy Number',
+        policy_number: 'PNR',
         status: 'Status'
     }
 
