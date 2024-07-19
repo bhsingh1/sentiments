@@ -170,24 +170,6 @@ data:
     Bengaluru 
     8899006633 
     alishasingh@gmail.com
-
-    The accident occurred on January 15, 2024, at approximately 3:45 PM, near the intersection of Maple Street and Oak Avenue in Rivertown. My vehicle, a Silver Hawk GT, was struck by another driver, identified as Samantha Reynolds, who ran a red light at the aforementioned intersection. This incident resulted in substantial damage to the front end of my car, including severe structural damage and airbag deployment.
-
-    I reported the claim immediately after the accident, providing all necessary details, witness information, and a detailed description of the events leading up to the collision. However, the response—or lack thereof—from your company has been absolutely deplorable. I have yet to receive any updates on the status of my claim, and my attempts to contact your claims department have been met with prolonged hold times and unhelpful representatives.
-
-    I insist on a thorough investigation into this matter and demand an explanation for the unreasonable delay. It is my right as a policyholder to receive timely updates on the progress of my claim and to be treated with the respect and urgency that this situation demands.
-
-    Furthermore, the lack of transparency and communication from your company is not only unprofessional but also exacerbates the stress and inconvenience caused by the accident itself. I expect immediate action to be taken to expedite the processing of my claim and provide me with the information I am entitled to as a paying customer.
-
-    I am appalled at the disregard for customer satisfaction and the apparent negligence displayed by your company in handling my claim. If my concerns are not addressed promptly and to my satisfaction, I will have no choice but to escalate this matter to the appropriate regulatory authorities and consider legal action.
-
-    I demand a comprehensive update on the status of my claim within the next 48 hours. Failing to meet this deadline will only reinforce my belief that your company values its bottom line over the well-being of its customers.
-
-    I trust that you will treat this matter with the urgency and seriousness it deserves.
-
-    Sincerely,
-    John T. Anderson
-    Policy Number: PT-567890
     
     ',
     '',
@@ -244,10 +226,10 @@ data:
     vikramsingh@gmail.com" 
    
     ',
-    'The email is from a customer named Dominic Toretto, requesting to file a claim for a car accident that occurred in Los Angeles. He describes the incident as involving a high-speed chase with another driver named Johnny Tran, who cut through traffic and caused Dominic to take evasive action. Dominic attempted to clear the truck by launching his car off a ramp but ended up crashing into a billboard, causing significant damage to the front end, shattered windows, and possibly a twisted chassis. The sender expresses confidence in Parasol''s ability to handle the claim efficiently due to their long-term loyalty as a customer. They ask for guidance on the next steps to take in the claims process.',
-    'The event the claim is related to happened at the intersection of Sunset Boulevard and Vine Street in downtown Los Angeles.',
-    'The event described in the claim text occurred last night (no specific date mentioned) at an intersection in downtown Los Angeles, specifically at Sunset Boulevard and Vine Street. The exact time is not provided in the text.',
-    'The person sending the claim, identified as Dominic Toretto, expresses a positive sentiment towards Parasol Insurance and his expectation of them handling his claim efficiently. However, the tone of the email is also boastful and exaggerated, describing an unlikely series of events involving a car accident and a high-speed chase. Despite the unconventional circumstances, Dominic expresses confidence in Parasol''s ability to help him get his car repaired.'
+    'The email is from a customer named Vikram Singh, appreciating the airlines. He describes his expereince as pleasant and one which made him really happy.  Vikram expresses his confidence in Indigo's ability to make a journey a pleasant experience',
+    'The event the claim is related to happened during an Indigo flight.',
+    'The event described calls out the airlines’ aspirational positioning.',
+    'The person sending the review is happy he received a packet of chips and cookies and a hand written note.'
     );
 
     -- CLAIM5
