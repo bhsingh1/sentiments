@@ -59,7 +59,7 @@ const AppLayout: React.FunctionComponent<IAppLayout> = ({ children }) => {
         <ToolbarItem>
           <TextContent>
             <Text component={TextVariants.p} className='pf-v5-global--spacer--md'>
-              Alex Garcia
+              Indigo Assistant
             </Text>
           </TextContent>
         </ToolbarItem>
