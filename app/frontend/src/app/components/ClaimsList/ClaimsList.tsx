@@ -158,9 +158,9 @@ const ClaimsList: React.FunctionComponent = () => {
                             className="claims-list-filter-select"
                         >
                             <FormSelectOption key={0} value="Any category" label="Any category" />
-                            <FormSelectOption key={1} value="Single vehicle" label="Single vehicle" />
-                            <FormSelectOption key={2} value="Multiple vehicle" label="Multiple vehicle" />
-                            <FormSelectOption key={3} value="Theft" label="Theft" />
+                            <FormSelectOption key={1} value="Review" label="Review" />
+                            <FormSelectOption key={2} value="Damage" label="Damage" />
+                            <FormSelectOption key={3} value="Refund" label="Refund" />
                         </FormSelect>
                     </FlexItem>
                     <FlexItem>
