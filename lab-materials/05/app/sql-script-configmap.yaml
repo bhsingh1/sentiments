@@ -124,52 +124,52 @@ data:
     -- CLAIM1
 
     INSERT INTO claims.claims (claim_number, category, policy_number, client_name, subject, body, summary, location, time, sentiment) 
-    VALUES ('CLM202401', 'Multiple vehicle', 'AC-987654321', 'Sarah Turner','Claim for Recent Car Accident - Policy Number: AC-987654321', '
-    Dear Parasol Insurance,
+    VALUES ('1', 'Refund', 'PNR-9W5TY76', 'Parth Sharma','Claim for Refund - PNR-9W5TY76', '
+    Hi Indigo Airlines,
     
-    I hope this email finds you well. My name is Sarah Turner, and I am writing to file a claim for a recent car accident that occurred on January 2nd, 2024, at approximately 3:30 PM. My policy number is AC-987654321.
+    I hope this email finds you well. My name is Parth Sharma, and I am writing to file a claim for my flight from Mumbai to Delhi on March 31, 2024. My PNR is 9W5TY76.
 
-    The accident took place at the intersection of Birch Street and Willow Avenue in the city of Evergreen. I was driving my vehicle, a black Toyota Camry with license plate number DEF-456, heading south on Birch Street. At the intersection, the traffic signal was green, and I proceeded through the intersection.
+    at 12.20 PM from Mumbai to Gwalior and at 11.00 am, I am receiving a message that my flight has been cancelled and there are no other flights later in the day!!.\n\n Do you guys understand the importance of bookings? Can’t you keep few hours delay and arrange the flight? Stupid reasons for your inefficiency weather is now under controlled. In case the situation was
 
-    At the same time, another vehicle, a blue Chevrolet Traverse with license plate number GHI-789, was traveling west on Willow Avenue. Unfortunately, the driver failed to stop at the red traffic signal, resulting in a collision with the front passenger side of my vehicle.
+    so worse it should have been informed to the passengers last night itself, so that they would made some arrangements or plan accordingly, just informing before 2 hours is highly irresponsible and passengers were already at the airport. The airport staff was rude and haggled the passengers unnecesarily. 
 
-    The impact caused significant damage to both vehicles. The front bumper and right headlight of my Toyota Camry are extensively damaged, and there are also damages to the front driver''s side of the Chevrolet Traverse. Fortunately, no injuries were sustained during the accident, and both drivers were able to move their vehicles to the side of the road.
-
-    I promptly exchanged information with the other driver, Mr. Daniel Reynolds, including our names, phone numbers, insurance details, and a brief description of the accident. Additionally, I took photos of the accident scene, including the damages to both vehicles and the position of the traffic signal.
-
-    I have attached the necessary documents to this email, including the photos, a copy of the police report filed at the Evergreen Police Department, and the estimate for the repair costs from Evergreen Auto Repair, where I have taken my vehicle for assessment.
-
-    I kindly request your prompt attention to this matter and would appreciate any guidance on the next steps in the claims process. If you require any additional information or documentation, please do not hesitate to contact me at (555) 123-4567 or sarah.turner@email.com.
-
+        
     Thank you for your assistance, and I look forward to a swift resolution of this claim.
 
     Sincerely,
 
-    Sarah Turner
-    123 Oak Street
-    Evergreen, CA 98765
-    (555) 123-4567
-    sarah.turner@email.com
+    Parth Sharma
+    Gurgaon
+    DLF Phase 1,  98765
+    (91) 9798909852
+    parth.sharma@gmail.com
+      
     ',
-    '
-    On January 2, 2024, at around 3:30 PM, a car accident occurred at the intersection of Birch Street and Willow Avenue in Evergreen. The involved parties were Sarah Turner, driving a black Toyota Camry (DEF-456), and Daniel Reynolds in a blue Chevrolet Traverse (GHI-789).
-
-    Sarah was heading south on Birch Street when Daniel failed to stop at the red traffic signal on Willow Avenue, causing a collision with Sarah''s vehicle. Both drivers exchanged information and took photos of the accident scene, which included damages to the front passenger side of Sarah''s Toyota Camry and the front driver''s side of Daniel''s Chevrolet Traverse. No injuries were reported.
-
-    Sarah has attached necessary documents, such as photos, a police report, and an estimate for repair costs, to her email. She requests prompt attention to the claim and is available at (555) 123-4567 or sarah.turner@email.com for any additional information or documentation needed.
-    ',
-    'Intersection of Birch Street and Willow Avenue in the city of Evergreen',
-    'January 2nd, 2024, at approximately 3:30 PM',
-    'The sender, Sarah Turner, expresses a polite and professional tone in her email. She is respectful and detailed in her description of the car accident and the subsequent steps she took to file a claim. She requests prompt attention to the matter and provides all necessary documentation. Overall, her sentiment is one of being proactive and cooperative in the claims process.'
+    '',
+    '',
+    '',
+    ''
     );
 
     -- CLAIM2
 
     INSERT INTO claims.claims (claim_number, category, policy_number, client_name, subject, body, summary, location, time, sentiment) 
-    VALUES ('CLM202402', 'Multiple vehicle', 'PT-567890', 'John T. Anderson','Urgent: Unacceptable Delay and Lack of Communication Regarding Claim #XYZ789', '
-    Dear Parasol Insurances,
+    VALUES ('2', 'Baggage Damage', 'PNR: 76AT54F2', 'Alisha','Urgent: Unacceptable Damage of Backage with valuables', '
+    Hi Indigo,
 
-    I am writing to express my extreme dissatisfaction with the appalling service I have received concerning my recent claim, reference number #XYZ789. The lack of communication and delayed response from your company is utterly unacceptable, and I demand immediate attention to rectify this matter.
+    I am writing to express my extreme dissatisfaction with the appalling service I have received on my last flight. This is regarding my baggage that got damaged during my flight from Guwahati to Delhi on July 2, 2024. 
+    
+    The luggage had my clothes and some luxury perfumes which broke. The suitcase is now completely damaged. To make matters worse, the on-ground staff refused to acknowledge the damage and said the suitcase was probably 
+    
+    broken before. I am sending a mail to the Ministry of Aviation as well regarding this. The entire experience is extremely dissapointing specially for someone who is a frequent flyer with Indigo since your inception days. 
+    
+    Please look into the same. I will personally make sure that neither me nor my family/friends will fly Indigo if no action is taken into this. 
+    
+    Sincerely, 
+    Alisha  
+    Bengaluru 
+    8899006633 
+    alishasingh@gmail.com
 
     The accident occurred on January 15, 2024, at approximately 3:45 PM, near the intersection of Maple Street and Oak Avenue in Rivertown. My vehicle, a Silver Hawk GT, was struck by another driver, identified as Samantha Reynolds, who ran a red light at the aforementioned intersection. This incident resulted in substantial damage to the front end of my car, including severe structural damage and airbag deployment.
 
@@ -188,41 +188,34 @@ data:
     Sincerely,
     John T. Anderson
     Policy Number: PT-567890
+    
     ',
-    '
-    The text is a letter of complaint from John T. Anderson to Parasol Insurances regarding an unresolved car insurance claim, #XYZ789. The incident occurred on January 15, 2024, when Anderson''s vehicle was hit by another driver, Samantha Reynolds, who ran a red light. The accident caused significant damage to Anderson''s car, and he reported the claim immediately, providing all necessary details. However, he has experienced poor communication and a delayed response from Parasol Insurances. Anderson demands an explanation for the delay, transparency, and urgency in handling his claim. He threatens to escalate the matter to regulatory authorities and consider legal action if his concerns are not addressed promptly. Anderson requests a comprehensive update on the status of his claim within the next 48 hours.
-    ',
-    'Near the intersection of Maple Street and Oak Avenue in Rivertown',
-    'January 15, 2024, at approximately 3:45 PM',
-    'The sender of this claim is expressing extreme dissatisfaction with the handling of their insurance claim by Parasol Insurances. They are frustrated with the lack of communication and the significant delay in processing their claim. The tone of the message is demanding and assertive, with the sender threatening to escalate the matter if their concerns are not addressed promptly.'
+    '',
+    '',
+    '',
+    ''
     );
 
     -- CLAIM3
 
     INSERT INTO claims.claims (claim_number, category, policy_number, client_name, subject, body, summary, location, time, sentiment) 
-    VALUES ('CLM502803', 'Multiple vehicle', 'AC-987654', 'Jane Doe','Urgent: Car Accident Claim Assistance Needed', '
-    Dear Parasol Inc.,
+    VALUES ('3', 'Review', 'PNR-98A765PO', 'Mohit Jain','Urgent: Great Service in the Sky', '
+    Dear Indigo Airlines,
 
-    I hope this email finds you well. I''m writing to, uh, inform you about, well, something that happened recently. It''s, um, about a car accident, and I''m not really sure how to, you know, go about all this. I''m kinda anxious and confused, to be honest.
-
-    So, the accident, uh, occurred on January 15, 2024, at around 3:30 PM. I was driving, or, um, attempting to drive, my car at the intersection of Maple Street and Elm Avenue. It''s kinda close to, um, a gas station and a, uh, coffee shop called Brew Haven? I''m not sure if that matters, but, yeah.
-
-    So, I was just, you know, driving along, and suddenly, out of nowhere, another car, a Blue Crest Sedan, crashed into the, uh, driver''s side of my car. It was like, whoa, what just happened, you know? There was this screeching noise and, uh, some honking from other cars, and I just felt really, uh, overwhelmed.
-
-    The weather was, um, kinda cloudy that day, but I don''t think it was raining. I mean, I can''t really remember. Sorry if that''s important. Anyway, the road, or, well, maybe the intersection, was kinda busy, with cars going in different directions. I guess that''s, you know, a detail you might need?
-
-    As for damages, my car has, uh, significant damage on the driver''s side. The front door is all dented, and the side mirror is, like, hanging by a thread. It''s not really drivable in its current, uh, state. The Blue Crest Sedan also had some damage, but I''m not exactly sure what because, you know, everything happened so fast.
-
-    I did manage to exchange information with the other driver. Their name is Sarah Johnson, and I got their phone number (555-1234), license plate number (ABC123), and insurance information. So, yeah, I hope that''s helpful.
-
-    I''m not sure what, um, steps I should take now. Do I need to go to a specific, uh, repair shop? Should I get a quote for the repairs? And, uh, how do I, you know, proceed with the insurance claim? I''m kinda lost here, and any guidance or assistance you can provide would be really, um, appreciated.
-
-    Sorry if this email is a bit all over the place. I''m just really, uh, anxious about the whole situation. Thank you for your understanding.
+    I hope this email finds you well.
+    
+    My name is Mohit Jain and I am wrtiting a small appreciation note for you people. Every time I fly Indigo, you people surprise me with a note and a little present. Almost to the point that if I don’t get one, it would be a surprise😜 
+    
+    This is not a flex but rather some observations I glean from experiences like this. A packet of chips & cookies cost nothing but it shows customers you care & makes them feel special. Indigo also brings out the letter and the gift on a 
+    
+    tray making it visible to others and sending a signal that celebs fly with us too. This builds the airlines’ aspirational positioning. While everything these days is snapped for social media, these little initiatives usually end up as a post as well, like this one. 
+    
+    So thanks once again for the fantastic service.  Looking forward to flying again soon.
 
     Sincerely,
 
-    Jane Doe
-    Policy Number: AC-987654
+    Mohit Jain
+    
     ',
     '',
     '',
@@ -233,31 +226,23 @@ data:
     -- CLAIM4
 
     INSERT INTO claims.claims (claim_number, category, policy_number, client_name, subject, body, summary, location, time, sentiment) 
-    VALUES ('CLM202415', 'Single vehicle', 'BK-5165426', 'Dominic Toretto','Claim for Car Accident - Policy #: BK-5165426', '
-    Dear Parasol Insurance Team,
+    VALUES ('4', 'Review', 'PNR-76AT54F2', 'Vikram Singh','Appreciation Message', '
+    Dear Indigo,
 
-    I hope this email finds you well. I''m reaching out to file a claim regarding a recent incident involving my car, which is covered under my policy with Parasol. The accident occurred last night on the streets of Los Angeles, and I wanted to provide you with all the necessary details.
-
-    Location: The accident took place at the intersection of Sunset Boulevard and Vine Street in downtown Los Angeles. It was one of those crazy nights, where the streets were alive with the sound of engines and the glow of neon lights.
-
-    Circumstances: So, here''s the deal. I was out cruising with the crew, enjoying the vibe of the city, when suddenly we found ourselves in the middle of a high-speed chase. There was this dude, let''s call him Johnny Tran for the sake of this email, who thought he could outmaneuver us. Little did he know, we don''t play by the rules.
-
-    Anyway, Johnny pulled some slick moves, cutting through traffic like a bat outta hell. Naturally, being the king of the streets that I am, I had to show him what real speed looks like. So, I hit the nitrous and went full throttle.
-
-    But then, outta nowhere, this semi-truck decided to make a left turn without signaling. I had to make a split-second decision, and I ended up launching my car off a ramp, trying to clear the truck like we''re in one of those crazy action flicks. It was like something straight outta the movies, I tell ya.
-
-    Long story short, the stunt didn''t exactly go as planned. My car ended up crashing into a billboard, flipping over a couple of times before finally coming to a stop. Yeah, it was a total wreck. But hey, at least we walked away without a scratch, just a little shaken, not stirred, if you catch my drift.
-
-    Damage: As for the damage to my car, let''s just say it''s gonna need more than a few wrenches and some duct tape to fix this baby up. The front end is smashed in, the windows are shattered, and I''m pretty sure the chassis is twisted beyond recognition. It''s gonna take a miracle to get her back on the road.
-
-    I understand that accidents happen, but I''m counting on Parasol to have my back in times like these. I''ve been a loyal customer for years, and I trust that you''ll handle my claim with the same speed and precision that I handle my rides.
-
-    Please let me know what steps I need to take to get the ball rolling on this claim. I''m ready to do whatever it takes to get my car back in top shape and back on the streets where it belongs.
-
-    Looking forward to hearing from you soon.
-
-    Sincerely,
-    Dominic Toretto
+    My name is Vikram Singh and I am wrtiting a small appreciation note for you people. Every time I fly Indigo, you people surprise me with a note and a little present. Almost to the point that if I don’t get one, it would be a surprise😜 
+    
+    This is not a flex but rather some observations I glean from experiences like this. A packet of chips & cookies cost nothing but it shows customers you care & makes them feel special. Indigo also brings out the letter and the gift 
+    
+    on a tray making it visible to others and sending a signal that celebs fly with us too. This builds the airlines’ aspirational positioning. While everything these days is snapped for social media, these little initiatives usually end up 
+    
+    as a post as well, like this one. 
+    
+    Sincerely, 
+    Vikram Singh  
+    Gurugram, Haryana 
+    990088331 
+    vikramsingh@gmail.com" 
+   
     ',
     'The email is from a customer named Dominic Toretto, requesting to file a claim for a car accident that occurred in Los Angeles. He describes the incident as involving a high-speed chase with another driver named Johnny Tran, who cut through traffic and caused Dominic to take evasive action. Dominic attempted to clear the truck by launching his car off a ramp but ended up crashing into a billboard, causing significant damage to the front end, shattered windows, and possibly a twisted chassis. The sender expresses confidence in Parasol''s ability to handle the claim efficiently due to their long-term loyalty as a customer. They ask for guidance on the next steps to take in the claims process.',
     'The event the claim is related to happened at the intersection of Sunset Boulevard and Vine Street in downtown Los Angeles.',
@@ -268,24 +253,29 @@ data:
     -- CLAIM5
 
     INSERT INTO claims.claims (claim_number, category, policy_number, client_name, subject, body, summary, location, time, sentiment) 
-    VALUES ('CLM52125', 'Multiple vehicle', 'AC-418324', 'Saul Goodman', 'Where is My Money? Urgent Attention Needed for My Car Accident Claim', '
-    Dear Stoneheart Insurance Claims Department,
+    VALUES ('5', 'Review', 'PNR: 89PL2T1', 'Lavanya Singh', 'Meal not served, rude behaviour', '
+    
+    Hi Indigo,
 
-    I am absolutely *thrilled* (read: infuriated) to be writing yet another heartfelt missive to the void that is your customer service. My recent car accident claim has vanished into the ether, much like my patience and the professionalism I expected from your company. How about we resolve this before the next ice age?
-
-    Let''s recap the blockbuster event:
-    On March 28, 2023, at around 4:15 PM, at the intersection of 5th Avenue and Main St in Springfield, my car was passionately sideswiped by another vehicle. Why? Because the other driver blasted through a red light and T-boned my car''s passenger side. It was a harrowing scene, made worse by your glacial pace of response.
-
-    It''s been over two weeks, and your commitment to delay is almost impressive. I demand a comprehensive review and prompt update on my claim within the next 24 hours. This isn''t just a request—it''s a necessity driven by sheer frustration and the urgent need for resolution.
-
-    Please treat this matter with the urgency it clearly deserves. I expect a detailed plan of action and a swift response, or be assured, further actions including legal recourse will be considered.
-
-    Looking forward to an expedited resolution,
-    Saul Goodman
-
-    CC: My 17 Twitter Followers
-
-    Attach: Police Report No. 12345, Photos of the Incident, Documented Calls and Emails
+    I am absolutely *thrilled* (read: infuriated) to be writing yet another heartfelt missive to the void that is your customer service. I am writing to complaint a claim 
+    
+    for a recent flight I took from Bengaluru to Nashik. I caught the flight on June 9th, 2024, at  3:30 PM. My PNR number is 89PL2T1.\n\n I wanted to report about an incident that took 
+    
+    place during the flight. I had pre-ordered and paid for a Chicken Junglee sandwich. However, the cabin staff told that the Chicken Junglee Sandwich was out of stock and fhence provided me an alternate meal. 
+    
+    The meal provided to me was a box of cashews and some cookies. The cookies received were stale and out of date. When I asked for a replacement, I was told this is all they have and they cannot provide anything else. 
+    
+    Not even a complimentary drink. The entire experience was not at all pleasant and the rude behaviour of the staff on-board was just not acceptful. It is shameful that a airlines of this pedigree provides such an experience to its flyers. 
+    
+    Please look into the same. I will personally make sure that neither me nor my family/friends will fly Indigo if no action is taken into this. 
+    
+    Looking forward to an expedited resolution.
+    
+    Lavanya Singh 
+    Bengaluru 
+    9993388221 
+    lavanyasingh@gmail.com
+    
     ',
     'The text is a letter from a customer named Saul Goodman to the Stoneheart Insurance Claims Department regarding an unresolved car accident claim. The incident occurred on March 28, 2023, at the intersection of 5th Avenue and Main St in Springfield, where Saul''s car was hit by another vehicle that ran a red light. He is frustrated with the lack of progress on his claim, which has been ongoing for over two weeks. Saul demands a thorough review and update within 24 hours, threatening further actions if his request is not met. He attaches relevant documents, including a police report, photos of the incident, and records of calls and emails, to support his claim.',
     'The event the claim is related to happened at the intersection of 5th Avenue and Main St in Springfield.',
@@ -293,25 +283,28 @@ data:
     'The sentiment of the person sending this claim is one of frustration and urgency. They are expressing dissatisfaction with the delay in processing their car accident claim and threatening further action if it is not resolved promptly.'
     );
 
+    -- CLAIM6
+    
     INSERT INTO claims.claims (claim_number, category, policy_number, client_name, subject, body, summary, location, time, sentiment) 
-    VALUES ('CLM605208', 'Multiple vehicle', 'AC-768901', 'Tyrion Lannister', 'Urgent Claim Review Required: Collision in King''s Landing', '
-    Dear Westeros Insurance Claims Department,
+    VALUES ('6', 'Refund', 'PNR - 987B65A4Z', 'Amit Pal', 'Last minute flight cancellation', '
+    Dear Indigo,
 
-    This correspondence is from Tyrion Lannister, currently not in a tavern but rather dealing with the aftermath of an unpleasant vehicular incident. As a man known for resolving conflicts, I find myself ironically embroiled in one that requires your immediate attention.
+    My name is Amit, and I am writing to complaint for flight booked today on Jun 20, 2024 at 12.20 PM from Mumbai to Gwalior and at 11.00 am, I am receiving a message that my flight has been cancelled 
+    
+    and there are no other flights later in the day!!.\n\n Do you guys understand the importance of bookings? Can’t you keep few hours delay and arrange the flight? Stupid reasons for your inefficiency weather is not under controll. 
+    
+    In case the situation was so worse it should have been informed to the passengers last night itself, so that they would made some arrangements or plan accordingly, just informing before 2 hours is highly irresponsible and passengers were 
+    
+    already at the airport. This is higly irresponsibile on part of the airlines and I shall file a complaint to the Ministry of Aviation as well regarding this. This is not how a Frequent Flyer of your airline desrves to be treated. Please make 
 
-    Here are the distressing details:
-    On April 15, 2023, at about noon, within the confines of King''s Landing, my car was struck by another. As I navigated through the bustling streets near the marketplace, a distracted driver—likely admiring the view of the Blackwater Bay instead of the road—rammed into my car''s side. This not only caused significant damage to the vehicle but also disrupted my travel plans significantly.
-
-    Nearly a month has elapsed since the accident, and yet, I''ve seen more action in the Small Council meetings than in the progress of my claim. Your lack of promptness in handling this matter is both noted and distressing. I require an exhaustive review and a swift update on my claim within the next 48 hours. This is not a mere request, but a necessity fueled by urgent needs and dwindling patience.
-
-    Please address this claim with the seriousness it merits. I expect a detailed response and a rapid resolution, or rest assured, further actions, potentially involving the Crown, will be considered.
-
-    I await your expedited action,
-    Tyrion Lannister
-
-    CC: Master of Coin
-
-    Attach: Car Damage Photos, Eyewitness Accounts, Incident Report No. KL509
+    sure that the matter is duly looked into and the an appropriate action taken. I seek a refund and a COMPLETE one in this case for the experience I faced.
+    
+    Sincerely, 
+    Amit  
+    Nagpur, 
+    9965926239 
+    amitjainh@gmail.com
+    
     ',
     '',
     '',
