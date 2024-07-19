@@ -211,7 +211,7 @@ data:
     VALUES ('4', 'Review', 'PNR-76AT54F2', 'Vikram Singh','Appreciation Message', '
     Dear Indigo,
 
-    My name is Vikram Singh and I am wrtiting a small appreciation note for you people. Every time I fly Indigo, you people surprise me with a note and a little present. Almost to the point that if I don’t get one, it would be a surprise😜 
+    My name is Vikram Singh and I am wrtiting a small appreciation note for you people. Every time I fly Indigo, you people surprise me with a note and a little present. Almost to the point that if I dont get one, it would be a surprise😜 
     
     This is not a flex but rather some observations I glean from experiences like this. A packet of chips & cookies cost nothing but it shows customers you care & makes them feel special. Indigo also brings out the letter and the gift 
     
@@ -226,7 +226,7 @@ data:
     vikramsingh@gmail.com" 
    
     ',
-    'The email is from a customer named Vikram Singh, appreciating the airlines. He describes his expereince as pleasant and one which made him really happy.  Vikram expresses his confidence in Indigo's ability to make a journey a pleasant experience',
+    'The email is from a customer named Vikram Singh, appreciating the airlines. He describes his expereince as pleasant and one which made him really happy. Vikram expresses his confidence in Indigos ability to make a journey a pleasant experience',
     'The event the claim is related to happened during an Indigo flight.',
     'The event described calls out the airlines aspirational positioning.',
     'The person sending the review is happy he received a packet of chips and cookies and a hand written note.'
