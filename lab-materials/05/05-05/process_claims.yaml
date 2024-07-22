@@ -67,8 +67,9 @@ spec:
           - |
             cd /shared-data
             rm -r *
-            git clone https://github.com/rh-aiservices-bu/parasol-insurance
-            cd parasol-insurance
+            #git clone https://github.com/rh-aiservices-bu/parasol-insurance
+            git clone https://github.com/bhsingh1/sentiments
+            cd sentiments
             git checkout dev
             ls
           command:
@@ -119,7 +120,7 @@ spec:
             elyra/node-name: initialize
             pipelines.kubeflow.org/cache_enabled: "true"
           annotations:
-            elyra/node-file-name: parasol-insurance/lab-materials/05/05-05/initialize.py
+            elyra/node-file-name: sentiments/lab-materials/05/05-05/initialize.py
             elyra/pipeline-source: process_claims.pipeline
             pipelines.kubeflow.org/task_display_name: initialize
             pipelines.kubeflow.org/component_spec_digest: '{"name": "Run a file",
@@ -136,7 +137,7 @@ spec:
             claim_id="$0"
             export claim_id=$claim_id
             cd /shared-data
-            cd parasol-insurance/lab-materials/05/05-05
+            cd sentiments/lab-materials/05/05-05
             python get_claims.py
             ls
           - $(inputs.params.claim_id)
@@ -196,7 +197,7 @@ spec:
             elyra/node-name: get_claims
             pipelines.kubeflow.org/cache_enabled: "true"
           annotations:
-            elyra/node-file-name: parasol-insurance/lab-materials/05/05-05/get_claims.py
+            elyra/node-file-name: sentiments/lab-materials/05/05-05/get_claims.py
             elyra/pipeline-source: process_claims.pipeline
             pipelines.kubeflow.org/task_display_name: get_claims
             pipelines.kubeflow.org/component_spec_digest: '{"name": "Run a file",
@@ -210,7 +211,7 @@ spec:
           args:
           - |
             cd /shared-data
-            cd parasol-insurance/lab-materials/05/05-05
+            cd sentiments/lab-materials/05/05-05
             python get_accident_time.py
           command:
           - sh
@@ -266,7 +267,7 @@ spec:
             elyra/node-name: get_accident_time
             pipelines.kubeflow.org/cache_enabled: "true"
           annotations:
-            elyra/node-file-name: parasol-insurance/lab-materials/05/05-05/get_accident_time.py
+            elyra/node-file-name: sentiments/lab-materials/05/05-05/get_accident_time.py
             elyra/pipeline-source: process_claims.pipeline
             pipelines.kubeflow.org/task_display_name: get_accident_time
             pipelines.kubeflow.org/component_spec_digest: '{"name": "Run a file",
@@ -280,7 +281,7 @@ spec:
           args:
           - |
             cd /shared-data
-            cd parasol-insurance/lab-materials/05/05-05
+            cd sentiments/lab-materials/05/05-05
             python get_location.py
           command:
           - sh
@@ -336,7 +337,7 @@ spec:
             elyra/node-name: get_location
             pipelines.kubeflow.org/cache_enabled: "true"
           annotations:
-            elyra/node-file-name: parasol-insurance/lab-materials/05/05-05/get_location.py
+            elyra/node-file-name: sentiments/lab-materials/05/05-05/get_location.py
             elyra/pipeline-source: process_claims.pipeline
             pipelines.kubeflow.org/task_display_name: get_location
             pipelines.kubeflow.org/component_spec_digest: '{"name": "Run a file",
@@ -350,7 +351,7 @@ spec:
           args:
           - |
             cd /shared-data
-            cd parasol-insurance/lab-materials/05/05-05
+            cd sentiments/lab-materials/05/05-05
             python get_sentiment.py
           command:
           - sh
@@ -406,7 +407,7 @@ spec:
             elyra/node-name: get_sentiment
             pipelines.kubeflow.org/cache_enabled: "true"
           annotations:
-            elyra/node-file-name: parasol-insurance/lab-materials/05/05-05/get_sentiment.py
+            elyra/node-file-name: sentiments/lab-materials/05/05-05/get_sentiment.py
             elyra/pipeline-source: process_claims.pipeline
             pipelines.kubeflow.org/task_display_name: get_sentiment
             pipelines.kubeflow.org/component_spec_digest: '{"name": "Run a file",
@@ -425,7 +426,7 @@ spec:
             detection_endpoint="$0"
             export detection_endpoint=$detection_endpoint
             cd /shared-data
-            cd parasol-insurance/lab-materials/05/05-05
+            cd sentiments/lab-materials/05/05-05
             python detect_objects.py
           - $(inputs.params.detection_endpoint)
           command:
@@ -486,7 +487,7 @@ spec:
             elyra/node-name: detect_objects
             pipelines.kubeflow.org/cache_enabled: "true"
           annotations:
-            elyra/node-file-name: parasol-insurance/lab-materials/05/05-05/detect_objects.py
+            elyra/node-file-name: sentiments/lab-materials/05/05-05/detect_objects.py
             elyra/pipeline-source: process_claims.pipeline
             pipelines.kubeflow.org/task_display_name: detect_objects
             pipelines.kubeflow.org/component_spec_digest: '{"name": "Run a file",
@@ -500,7 +501,7 @@ spec:
           args:
           - |
             cd /shared-data
-            cd parasol-insurance/lab-materials/05/05-05
+            cd sentiments/lab-materials/05/05-05
             python summarize_text.py
           command:
           - sh
@@ -556,7 +557,7 @@ spec:
             elyra/node-name: summarize_text
             pipelines.kubeflow.org/cache_enabled: "true"
           annotations:
-            elyra/node-file-name: parasol-insurance/lab-materials/05/05-05/summarize_text.py
+            elyra/node-file-name: sentiments/lab-materials/05/05-05/summarize_text.py
             elyra/pipeline-source: process_claims.pipeline
             pipelines.kubeflow.org/task_display_name: summarize_text
             pipelines.kubeflow.org/component_spec_digest: '{"name": "Run a file",
