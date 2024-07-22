@@ -140,7 +140,7 @@ data:
 
     Parth Sharma
     Gurgaon
-    DLF Phase 1,  98765
+    DLF Phase 1,
     (91) 9798909852
     parth.sharma@gmail.com
       
@@ -154,7 +154,7 @@ data:
     -- CLAIM2
 
     INSERT INTO claims.claims (claim_number, category, policy_number, client_name, subject, body, summary, location, time, sentiment) 
-    VALUES ('2', 'Baggage Damage', 'PNR: 76AT54F2', 'Alisha','Urgent: Unacceptable Damage of Backage with valuables', '
+    VALUES ('2', 'Damage', 'PNR: 76AT54F2', 'Alisha','Urgent: Unacceptable Damage of Backage with valuables', '
     Hi Indigo,
 
     I am writing to express my extreme dissatisfaction with the appalling service I have received on my last flight. This is regarding my baggage that got damaged during my flight from Guwahati to Delhi on July 2, 2024. 
@@ -222,7 +222,6 @@ data:
     Sincerely, 
     Vikram Singh  
     Gurugram, Haryana 
-    990088331 
     vikramsingh@gmail.com" 
    
     ',
@@ -259,10 +258,10 @@ data:
     lavanyasingh@gmail.com
     
     ',
-    'The text is a letter from a customer named Saul Goodman to the Stoneheart Insurance Claims Department regarding an unresolved car accident claim. The incident occurred on March 28, 2023, at the intersection of 5th Avenue and Main St in Springfield, where Saul''s car was hit by another vehicle that ran a red light. He is frustrated with the lack of progress on his claim, which has been ongoing for over two weeks. Saul demands a thorough review and update within 24 hours, threatening further actions if his request is not met. He attaches relevant documents, including a police report, photos of the incident, and records of calls and emails, to support his claim.',
-    'The event the claim is related to happened at the intersection of 5th Avenue and Main St in Springfield.',
-    'The car accident described in the text occurred on March 28, 2023, at around 4:15 PM.',
-    'The sentiment of the person sending this claim is one of frustration and urgency. They are expressing dissatisfaction with the delay in processing their car accident claim and threatening further action if it is not resolved promptly.'
+    'The text is a letter from a customer named Lavanya Singh to Indigo. The incident occurred on June 9th, 2024, at 3:30 PM, during her flight from Bengaluru to Nashik. She had pre-ordered and paid for a Chicken Junglee sandwich which was out of stock and the alternate meal cashews and some cookies were stale.',
+    'The event the claim is related to happened during a flight from Bengaluru to Nashik.',
+    'The incident as described in the text occurred on une 9th, 2024 at around 3:30 PM.',
+    'The sentiment of the person sending this claim is one of frustration and urgency. They are expressing dissatisfaction with the meal provided to them.delay in processing their car accident claim and threatening thye will ensure neither their family/friends will fly Indigo if no action taken.'
     );
 
     -- CLAIM6
@@ -302,11 +301,11 @@ data:
     INSERT INTO claims.original_images (image_name, image_key, claim_id) VALUES ('car3.jpg', 'original_images/car3.jpg', 3);
     INSERT INTO claims.original_images (image_name, image_key, claim_id) VALUES ('car5.jpg', 'original_images/car5.jpg', 3);
     INSERT INTO claims.original_images (image_name, image_key, claim_id) VALUES ('car6.jpg', 'original_images/car6.jpg', 3);
+    INSERT INTO claims.original_images (image_name, image_key, claim_id) VALUES ('car4.jpg', 'original_images/car4.jpg', 4);
     INSERT INTO claims.processed_images (image_name, image_key, claim_id) VALUES ('car0-processed.jpg', 'processed_images/car0-processed.jpg', 1);
     INSERT INTO claims.processed_images (image_name, image_key, claim_id) VALUES ('car1-processed.jpg', 'processed_images/car1-processed.jpg', 1);
     INSERT INTO claims.processed_images (image_name, image_key, claim_id) VALUES ('car2-processed.jpg', 'processed_images/car2-processed.jpg', 2);
     INSERT INTO claims.processed_images (image_name, image_key, claim_id) VALUES ('car3-processed.jpg', 'processed_images/car3-processed.jpg', 3);
     INSERT INTO claims.processed_images (image_name, image_key, claim_id) VALUES ('car5-processed.jpg', 'processed_images/car5-processed.jpg', 3);
     INSERT INTO claims.processed_images (image_name, image_key, claim_id) VALUES ('car6-processed.jpg', 'processed_images/car6-processed.jpg', 3);
-
-
+    INSERT INTO claims.processed_images (image_name, image_key, claim_id) VALUES ('car4-processed.jpg', 'processed_images/car4-processed.jpg', 4);
