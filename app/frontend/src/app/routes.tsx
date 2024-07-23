@@ -51,7 +51,7 @@ const routes: AppRouteConfig[] = [
   {
     component: ClaimsList,
     exact: true,
-    label: 'Claims',
+    label: 'Feedback',
     path: '/ClaimsList',
     title: 'Claims List',
   },
@@ -63,19 +63,19 @@ const routes: AppRouteConfig[] = [
   },
   {
     component: Empty,
-    label: 'Coverages',
+    label: 'Categories',
     path: '#',
     title: 'Coverages'
   },
   {
     component: Empty,
-    label: 'Annuities',
+    label: 'Payments',
     path: '#',
     title: 'Annuities'
   },
   {
     component: Empty,
-    label: 'Subscriptions',
+    label: 'Loyalty Program',
     path: '#',
     title: 'Subscriptions'
   },

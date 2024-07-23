@@ -154,7 +154,7 @@ data:
     -- CLAIM2
 
     INSERT INTO claims.claims (claim_number, category, policy_number, client_name, subject, body, summary, location, time, sentiment) 
-    VALUES ('2', 'Baggage Damage', 'PNR: 76AT54F2', 'Alisha','Urgent: Unacceptable Damage of Backage with valuables', '
+    VALUES ('2', 'Damage', 'PNR: 76AT54F2', 'Alisha','Urgent: Unacceptable Damage of Backage with valuables', '
     Hi Indigo,
 
     I am writing to express my extreme dissatisfaction with the appalling service I have received on my last flight. This is regarding my baggage that got damaged during my flight from Guwahati to Delhi on July 2, 2024. 
