@@ -97,13 +97,13 @@ const routes: AppRouteConfig[] = [
     path: '#',
     title: 'Settings'
   },
-  {
-    component: OriginalApp,
-    exact: true,
-    label: 'Original App',
-    path: '/OriginalApp',
-    title: 'Original App',
-  },
+  //{
+  // component: OriginalApp,
+    //exact: true,
+   // label: 'Original App',
+   // path: '/OriginalApp',
+   // title: 'Original App',
+ // },
 ];
 
 
