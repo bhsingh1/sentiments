@@ -6,7 +6,7 @@ import { Redirect, Route, RouteComponentProps, Switch, useLocation } from 'react
 import { ClaimDetail } from './components/ClaimDetail/ClaimDetail';
 import { ClaimsList } from './components/ClaimsList/ClaimsList';
 import { Empty } from './components/Empty/Empty';
-
+import { Dashboard } from './components/Dashboard/Dashboard';
 
 let routeFocusTimer: number;
 export interface IAppRoute {
@@ -31,15 +31,15 @@ export type AppRouteConfig = IAppRoute | IAppRouteGroup;
 
 const routes: AppRouteConfig[] = [
   {
-    component: () => <Redirect to="/ClaimsList" />,
+    component: () => <Redirect to="/Dashboard" />,
     exact: true,
     path: '/',
     title: 'Redirect',
   },
   {
-    component: Empty,
+    component: Dashboard,
     label: 'Dashboard',
-    path: '#',
+    path: '/Dashboard',
     title: 'Dashboard'
   },
   {

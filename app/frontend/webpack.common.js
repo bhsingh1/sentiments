@@ -12,6 +12,14 @@ module.exports = (env) => {
     module: {
       rules: [
         {
+          test: /\.(png|jpe?g|gif)$/i,
+          use: [
+            {
+              loader: 'file-loader',
+            },
+          ],
+        },
+        {
           test: /\.(tsx|ts|jsx)?$/,
           use: [
             {
@@ -76,7 +84,7 @@ module.exports = (env) => {
           include: [
             path.resolve(__dirname, 'src/app/assets/images'),
           ],
-          use: 
+          use:
             {
               loader: 'file-loader',
               options: {
