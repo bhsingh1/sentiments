@@ -154,7 +154,7 @@ data:
     -- CLAIM2
 
     INSERT INTO claims.claims (claim_number, category, policy_number, client_name, subject, body, summary, location, time, sentiment) 
-    VALUES ('2', 'Damage', 'PNR: P52DKC', 'Alisha','Urgent: Unacceptable Damage of Backage with valuables', '
+    VALUES ('2', 'Damage', 'PNR-P52DKC', 'Alisha','Urgent: Unacceptable Damage of Backage with valuables', '
     Hi Indigo,
 
     I am writing to express my extreme dissatisfaction with the appalling service I have received on my last flight. This is regarding my baggage that got damaged during my flight from Guwahati to Delhi on July 2, 2024. 
@@ -234,7 +234,7 @@ data:
     -- CLAIM5
 
     INSERT INTO claims.claims (claim_number, category, policy_number, client_name, subject, body, summary, location, time, sentiment) 
-    VALUES ('5', 'Review', 'PNR: L89P2T', 'Lavanya Singh', 'Meal not served, rude behaviour', '
+    VALUES ('5', 'Review', 'PNR-L89P2T', 'Lavanya Singh', 'Meal not served, rude behaviour', '
     
     Hi Indigo,
 
@@ -267,7 +267,7 @@ data:
     -- CLAIM6
     
     INSERT INTO claims.claims (claim_number, category, policy_number, client_name, subject, body, summary, location, time, sentiment) 
-    VALUES ('6', 'Refund', 'PNR - 7B65AZ', 'Amit Pal', 'Last minute flight cancellation', '
+    VALUES ('6', 'Refund', 'PNR-7B65AZ', 'Amit Pal', 'Last minute flight cancellation', '
     Dear Indigo,
 
     My name is Amit, and I am writing to complaint for flight booked today on Jun 20, 2024 at 12.20 PM from Mumbai to Gwalior and at 11.00 am, I am receiving a message that my flight has been cancelled 
