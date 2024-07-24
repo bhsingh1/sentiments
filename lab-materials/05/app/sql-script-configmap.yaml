@@ -124,7 +124,7 @@ data:
     -- CLAIM1
 
     INSERT INTO claims.claims (claim_number, category, policy_number, client_name, subject, body, summary, location, time, sentiment) 
-    VALUES ('1', 'Refund', 'PNR-9W5TY76', 'Parth Sharma','Claim for Refund - PNR-9W5TY76', '
+    VALUES ('1', 'Refund', 'PNR-YBIRI7', 'Parth Sharma','Claim for Refund - PNR-YBIRI7', '
     Hi Indigo Airlines,
     
     I hope this email finds you well. My name is Parth Sharma, and I am writing to file a claim for my flight from Mumbai to Delhi on March 31, 2024. My PNR is 9W5TY76.
@@ -154,7 +154,7 @@ data:
     -- CLAIM2
 
     INSERT INTO claims.claims (claim_number, category, policy_number, client_name, subject, body, summary, location, time, sentiment) 
-    VALUES ('2', 'Damage', 'PNR: 76AT54F2', 'Alisha','Urgent: Unacceptable Damage of Backage with valuables', '
+    VALUES ('2', 'Damage', 'PNR: P52DKC', 'Alisha','Urgent: Unacceptable Damage of Backage with valuables', '
     Hi Indigo,
 
     I am writing to express my extreme dissatisfaction with the appalling service I have received on my last flight. This is regarding my baggage that got damaged during my flight from Guwahati to Delhi on July 2, 2024. 
@@ -181,7 +181,7 @@ data:
     -- CLAIM3
 
     INSERT INTO claims.claims (claim_number, category, policy_number, client_name, subject, body, summary, location, time, sentiment) 
-    VALUES ('3', 'Review', 'PNR-98A765PO', 'Mohit Jain','Urgent: Great Service in the Sky', '
+    VALUES ('3', 'Review', 'PNR-Z86PLW', 'Mohit Jain','Urgent: Great Service in the Sky', '
     Dear Indigo Airlines,
 
     I hope this email finds you well.
@@ -208,7 +208,7 @@ data:
     -- CLAIM4
 
     INSERT INTO claims.claims (claim_number, category, policy_number, client_name, subject, body, summary, location, time, sentiment) 
-    VALUES ('4', 'Review', 'PNR-76AT54F2', 'Vikram Singh','Appreciation Message', '
+    VALUES ('4', 'Review', 'PNR-SBI9P7', 'Vikram Singh','Appreciation Message', '
     Dear Indigo,
 
     My name is Vikram Singh and I am wrtiting a small appreciation note for you people. Every time I fly Indigo, you people surprise me with a note and a little present. Almost to the point that if I dont get one, it would be a surprise😜 
@@ -234,13 +234,13 @@ data:
     -- CLAIM5
 
     INSERT INTO claims.claims (claim_number, category, policy_number, client_name, subject, body, summary, location, time, sentiment) 
-    VALUES ('5', 'Review', 'PNR: 89PL2T1', 'Lavanya Singh', 'Meal not served, rude behaviour', '
+    VALUES ('5', 'Review', 'PNR: L89P2T', 'Lavanya Singh', 'Meal not served, rude behaviour', '
     
     Hi Indigo,
 
     I am absolutely *thrilled* (read: infuriated) to be writing yet another heartfelt missive to the void that is your customer service. I am writing to complaint a claim 
     
-    for a recent flight I took from Bengaluru to Nashik. I caught the flight on June 9th, 2024, at  3:30 PM. My PNR number is 89PL2T1.\n\n I wanted to report about an incident that took 
+    for a recent flight I took from Bengaluru to Nashik. I caught the flight on June 9th, 2024, at  3:30 PM. My PNR number is L89P2T.\n\n I wanted to report about an incident that took 
     
     place during the flight. I had pre-ordered and paid for a Chicken Junglee sandwich. However, the cabin staff told that the Chicken Junglee Sandwich was out of stock and fhence provided me an alternate meal. 
     
@@ -258,16 +258,16 @@ data:
     lavanyasingh@gmail.com
     
     ',
-    'The text is a letter from a customer named Lavanya Singh to Indigo. The incident occurred on June 9th, 2024, at 3:30 PM, during her flight from Bengaluru to Nashik. She had pre-ordered and paid for a Chicken Junglee sandwich which was out of stock and the alternate meal cashews and some cookies were stale.',
+    'The text is a letter from a customer named Lavanya Singh to Indigo. She had pre-ordered and paid for a Chicken Junglee sandwich which was out of stock and the alternate meal cashews and some cookies were stale.',
     'The event the claim is related to happened during a flight from Bengaluru to Nashik.',
-    'The incident as described in the text occurred on une 9th, 2024 at around 3:30 PM.',
-    'The sentiment of the person sending this claim is one of frustration and urgency. They are expressing dissatisfaction with the meal provided to them.delay in processing their car accident claim and threatening thye will ensure neither their family/friends will fly Indigo if no action taken.'
+    'The incident as described in the text occurred on June 9th, 2024 at around 3:30 PM.',
+    'The sentiment of the person sending this claim is one of frustration and urgency. A delay in responding to them will ensure neither their family/friends will fly Indigo if no action taken.'
     );
 
     -- CLAIM6
     
     INSERT INTO claims.claims (claim_number, category, policy_number, client_name, subject, body, summary, location, time, sentiment) 
-    VALUES ('6', 'Refund', 'PNR - 987B65A4Z', 'Amit Pal', 'Last minute flight cancellation', '
+    VALUES ('6', 'Refund', 'PNR - 7B65AZ', 'Amit Pal', 'Last minute flight cancellation', '
     Dear Indigo,
 
     My name is Amit, and I am writing to complaint for flight booked today on Jun 20, 2024 at 12.20 PM from Mumbai to Gwalior and at 11.00 am, I am receiving a message that my flight has been cancelled 
