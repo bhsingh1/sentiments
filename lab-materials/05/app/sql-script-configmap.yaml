@@ -181,18 +181,18 @@ data:
     -- CLAIM3
 
     INSERT INTO claims.claims (claim_number, category, policy_number, client_name, subject, body, summary, location, time, sentiment) 
-    VALUES ('3', 'Review', 'PNR-Z86PLW', 'Mohit Jain','Urgent: Great Service in the Sky', '
+    VALUES ('3', 'Review', 'PNR-Z86PLW', 'Mohit Jain','Urgent: Great Service and Blue Tea in the Sky', '
     Dear Indigo Airlines,
 
     I hope this email finds you well.
     
     My name is Mohit Jain and I am wrtiting a small appreciation note for you people. Every time I fly Indigo, you people surprise me with a note and a little present. Almost to the point that if I don’t get one, it would be a surprise😜 
     
-    This is not a flex but rather some observations I glean from experiences like this. A packet of chips & cookies cost nothing but it shows customers you care & makes them feel special. Indigo also brings out the letter and the gift on a 
+    This is not a flex but rather some observations I glean from experiences like this. A sandwich & a juice don't cost much but it shows customers you care & make them feel special. Indigo also brings out the letter and the gift on 
     
-    tray making it visible to others and sending a signal that celebs fly with us too. This builds the airlines’ aspirational positioning. While everything these days is snapped for social media, these little initiatives usually end up as a post as well, like this one. 
+    a tray making it visible to others and sending a signal that celebs fly with us too. This builds the airlines’ aspirational positioning. While everything these days is snapped for social media, these little initiatives usually end up as a post as well, like this one. 
     
-    So thanks once again for the fantastic service.  Looking forward to flying again soon.
+    So thanks once again for the fantastic service.  Cannot wait to flying and having the fantastic Blue Tea again soon.
 
     Sincerely,
 
