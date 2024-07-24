@@ -11,7 +11,7 @@ const Dashboard = () => {
             </PageSection>
             <PageSection>
                 <TextContent>
-                    <Text component={TextVariants.h4}>AI for Irregular Operations</Text>
+                    <Text component={TextVariants.h3}>Use OpenShift AI for Feedback Mining and many other use-cases.</Text>
                 </TextContent>
             </PageSection>
             <PageSection>
