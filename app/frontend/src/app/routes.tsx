@@ -53,7 +53,7 @@ const routes: AppRouteConfig[] = [
     exact: true,
     label: 'Feedback',
     path: '/ClaimsList',
-    title: 'Claims List',
+    title: 'Feedback Mining',
   },
   {
     component: ClaimDetail,
